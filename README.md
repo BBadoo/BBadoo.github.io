@@ -1,2 +1,2 @@
 # BBadoo.github.io
-Test Site Atm
+Test site of absolutely 0 value at this time!
