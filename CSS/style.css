@@ -22,7 +22,6 @@
 
 body {
     background-image:url("../Images/qbkls.png");
-    margin-bottom: 60px;
 }
 
 .nav-link2 {
@@ -43,14 +42,16 @@ body {
     font-size: 24px;
     color: teal;
     margin: 0px 0px 0px 0px;
-    padding: 0px 20px 0px 20px;
+    padding: 5px 20px 5px 20px;
 }
 
 p {
-    text-indent: 25px;
+    text-indent: 20px;
     font-family: 'Lora', serif;
     font-size: 18px;
     padding-left: 10px;
+    padding-right: 10px;
+    
 }
 
 .content {
@@ -60,6 +61,7 @@ p {
     border-bottom: solid lightgrey 1px;
     border-top: solid lightgrey 1px;
     margin-top: 20px;
+    margin-bottom: 105px;
 }
 
 .nopadright {
@@ -189,3 +191,7 @@ h5 {margin: 0px}
   /* .imgprofile {
       overflow: hidden;
   } */
+
+.mrt40 {
+    margin-top: 40px;
+}
