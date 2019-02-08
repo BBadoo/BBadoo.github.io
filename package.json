@@ -1,0 +1,22 @@
+{
+  "name": "bradbader.github.io",
+  "version": "1.0.0",
+  "description": "Initial Brutal Homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradBader/BradBader.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BradBader/BradBader.github.io/issues"
+  },
+  "homepage": "https://github.com/BradBader/BradBader.github.io#readme",
+  "dependencies": {
+    "@mdi/font": "^3.4.93"
+  }
+}

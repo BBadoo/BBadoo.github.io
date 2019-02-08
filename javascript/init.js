@@ -1,3 +1,5 @@
+var mdi = require=("@mdi/font")
+
 
 $(document).ready(function(){
   $('.fixed-action-btn').floatingActionButton();
