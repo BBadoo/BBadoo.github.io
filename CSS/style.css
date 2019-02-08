@@ -47,9 +47,10 @@ body {
 }
 
 p {
-    text-indent: 20px;
+    text-indent: 25px;
     font-family: 'Lora', serif;
     font-size: 18px;
+    padding-left: 10px;
 }
 
 .content {
@@ -168,10 +169,23 @@ footer {
 
 h5 {margin: 0px}
 
-/* @media only screen and (max-width: 975px) {
-    .profileimg {
-      display:block;
-      margin-left: 300px;
-      margin-right: 300px;
+/* @media only screen and (max-width: 1160px) {
+    .megapad { padding-left: 125px
+     
     }
+}
+
+@media only screen and (max-width: 1000px) {
+    .megapad { padding-left: 150px
+     
+    }
+}
+@media only screen and (max-width: 1540px) {
+    .megapad { padding-left: 50px
+     
+    }
+} */
+
+  /* .imgprofile {
+      overflow: hidden;
   } */
