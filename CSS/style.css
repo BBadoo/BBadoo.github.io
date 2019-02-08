@@ -167,3 +167,11 @@ footer {
 }
 
 h5 {margin: 0px}
+
+/* @media only screen and (max-width: 975px) {
+    .profileimg {
+      display:block;
+      margin-left: 300px;
+      margin-right: 300px;
+    }
+  } */
