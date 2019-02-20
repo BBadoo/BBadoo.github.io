@@ -202,4 +202,7 @@ h5 {margin: 0px}
 .imgprofile {
     width: auto;
     overflow: hidden;
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
 }
