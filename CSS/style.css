@@ -173,27 +173,53 @@ footer {
 
 h5 {margin: 0px}
 
-/* @media only screen and (max-width: 1160px) {
+ /* @media only screen and (max-width: 1160px) {
     .megapad { padding-left: 125px
      
     }
 }
 
 @media only screen and (max-width: 1000px) {
-    .megapad { padding-left: 150px
+    .profileimg { align-self: center;
+        align-content: center;
      
     }
+    .imgprofile {
+        align-content: center;
+        align-self: center;
+
+    }
 }
-@media only screen and (max-width: 1540px) {
+
+
+@media only screen and (max-width: 900px) {
+    .profileimg { align-self: center;
+        align-content: center;
+     
+    } */
+    /* .imgprofile {
+        align-content: center;
+        align-self: center;
+        float: center;
+    }
+} */
+/* @media only screen and (max-width: 1540px) {
     .megapad { padding-left: 50px
      
     }
 } */
 
-  /* .imgprofile {
-      overflow: hidden;
-  } */
+
 
 .mrt40 {
     margin-top: 40px;
+}
+
+.profileimg {
+    overflow: hidden;
+}
+
+.imgprofile {
+    width: auto;
+    overflow: hidden;
 }

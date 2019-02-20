@@ -6,6 +6,7 @@
         <link rel="stylesheet" text="type/css" href="CSS/materialize.css">
         <link rel="stylesheet" text="type/css" href="CSS/style.css">
         <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans|Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -13,12 +14,18 @@
                 <div class="container topbanner">
                         <nav>
                                 <div class="nav-wrapper blue-grey darken-1">
-                                        <a href="#" class="brand-logo OS left">&nbsp;Brad Bader</a>
-                                        <ul id="nav-mobile" class="right">
+                                        <a href="#" class="brand-logo OS">&nbsp;Brad Bader</a>
+                                        <ul class="right hide-on-med-and-down">
                                                 <li class="active"><a href="index.html">About</a></li>
                                                 <li class="active"><a href="portfolio.html">Portfolio</a></li>
                                                 <li class="active"><a href="contact.html">Contact</a></li>
                                         </ul>
+                                        <ul id="nav-mobile" class="sidenav">
+                                                <li class="active"><a href="index.html">About</a></li>
+                                                <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                                                <li class="active"><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                                 </div>
                         </nav>
                 </div>
@@ -30,19 +37,24 @@
                         <h1 class="hh1 OS">About Me</h1>
                 </div>
                 <div class="row">
-                        <div class="col offset-s3 s4 m5 offset-m4 l3 profileimg">
 
-                                <img class="imgprofile" src="Images/imgone.jpg" width="auto" height="auto">
+                        <div class="col s12 m12 l4 profileimg center-align">
+
+                                <img class="imgprofile center-align" src="Images/imgone.jpg" width="auto">
 
                         </div>
-                        <div class="col s12 m l9">
-                                <p> I'm a coder, attorney, and dad to two children.
+
+
+                        <div class="col s12 m12 l8">
+                                <p class="flow-text"> I'm a coder, attorney, and dad to two children.
                                         I work primarily on financial issues as an attorney.
                                         I'm competent with front-end and back-end coding.
                                         I have included a few select projects on the portfolio page.
                                         This site is a WIP.
                                 </p>
                         </div>
+
+
                 </div>
                 <!-- <div class="row">
 
